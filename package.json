@@ -1,0 +1,37 @@
+{
+  "name": "astro-measuremysite",
+  "version": "0.1.0",
+  "description": "Astro integration for measuremy.site: cookieless web analytics your AI agent can read.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "astro": ">=3.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://measuremy.site/docs/install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developeron29/measuremysite-astro.git"
+  },
+  "keywords": [
+    "astro-integration",
+    "withastro",
+    "analytics",
+    "web-analytics",
+    "cookieless",
+    "privacy",
+    "mcp",
+    "measuremy.site"
+  ]
+}
